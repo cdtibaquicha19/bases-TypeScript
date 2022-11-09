@@ -1,12 +1,18 @@
-"use strict";
 let saludo = "saludar";
-saludo += "cambio";
+
+saludo += "cambio" ;
+
 let numero = 10;
-let cualquiera;
+
+let cualquiera :any ;
 cualquiera = "cadena";
 cualquiera = 10;
+
 const PI = 3.14;
-function saludar() {
+
+
+function saludar(){
+
     console.log(saludo);
     console.log(numero);
     console.log(PI);
